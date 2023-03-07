@@ -1,0 +1,264 @@
+@font-face {
+    src: url(fonts/optima-cdnfonts/OPTIMA.TTF);
+    font-family: Optima;
+}
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Optima;
+}
+
+/* section 1 */
+    #1{
+        align-content: center;
+    }
+
+    /* images */
+    .horizonlogo{
+        position: absolute;
+        width: 380.16px;
+        height: 354px;
+        left: calc(50% - 380.16px/2 - 0.58px);
+        top: 120px;
+    }
+
+    .star1{
+        position: absolute;
+        width: 94px;
+        height: 94px;
+        left: 710px;
+        top: 641px;
+    }
+
+    .glare{
+        position: absolute;
+        width: 1024px;
+        height: 19px;
+        left: 215px;
+        top: 675px;
+        background: linear-gradient(89.99deg, rgba(37, 204, 194, 0) -2.53%, rgba(37, 204, 194, 0.3431) 49.72%, rgba(37, 204, 194, 0) 101.65%);
+        box-shadow: 0px 0px 72.576px rgba(37, 204, 194, 0.1), 0px 0px 41.472px rgba(37, 204, 194, 0.1), 0px 0px 24.192px rgba(37, 204, 194, 0.1), 0px 0px 12.096px rgba(37, 204, 194, 0.1), 0px 0px 3.456px rgba(37, 204, 194, 0.1), 0px 0px 1.728px rgba(37, 204, 194, 0.1);
+        filter: blur(5px);
+    }
+
+    .arc{
+       position: absolute;
+       left: -85px;
+       width: 1600px;
+       height: 2000px;
+       top: 450px;
+    }
+
+
+    /* text */
+    .maintitle{
+        position: absolute;
+        width: 574px;
+        height: 46px;
+        left: calc(50% - 574px/2 - 1px);
+        top: 500px;      
+        font-family: 'Optima';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 46px;
+        text-align: center;
+        letter-spacing: 0.2em;                     
+    }
+
+/* section 2 */
+    .abtus{
+        position: absolute;
+        width: 600px;
+        height: 48px;
+        left: 101px;
+        top: 900px;
+        font-family: 'Optima';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        
+    }
+
+    .elips{
+        box-sizing: border-box;
+        position: absolute;
+        width: 128.6px;
+        height: 563.56px;
+        left: 400px;
+        top: 720px;
+        transform: rotate(67.4deg);
+    }
+
+    .p2{
+        position: absolute;
+        width: 700px;
+        height: 441px;
+        left: 100px;
+        top: 1100px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 49px;
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        letter-spacing: 0.025em;
+    }
+
+    /* image */
+    .istelogo{
+        position: absolute;
+        width: 299px;
+        height: 299px;
+        left: 990px;
+        top: 1108px;
+    }
+
+    .star2{
+        position: absolute;
+        width: 89.94px;
+        height: 89.94px;
+        left: 1317px;
+        top: 869px;
+    }
+
+    .star3{
+        position: absolute;
+        width: 89.94px;
+        height: 89.94px;
+        left: 1317px;
+        top: 1618.94px;
+    }
+
+/* section 3 */
+
+    .workshop{
+        margin: 130% 0 0 5.5%;
+        width: 186px;
+        height: 41px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 30px;
+        line-height: 41px;
+        letter-spacing: 0.025em;
+    }
+
+    .asym{
+        margin: 2% 0 0 3%;
+        width: 726px;
+        height: 34px;
+        font-family: 'Optima';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 34px;
+        text-align: center;
+        letter-spacing: 0.025em;
+    }
+
+    .csl{
+        margin: 5%;     
+    }
+
+    .cslimg{
+        height: 472px;   
+        width: 860px;
+    }
+
+    .p3{
+        position: relative;
+        bottom: 450px;
+        font-family: 'Open Sans';
+        margin: 0 0 0 16%;
+        width: 999px;
+        height: 294px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 49px;
+        text-align: justify;
+        letter-spacing: 0.025em;
+    }
+
+    /* images */
+    .elipse3{
+        position: relative;
+        bottom: 1000px;
+        right: 300px;
+        width: 128.6px;
+        height: 563.56px;
+        transform: rotate(67.4deg);
+    }
+
+    .arc3{
+        position: absolute;
+        left: -5px;
+        top: 2600px;
+    }
+
+    .elip{
+        position: relative;
+        left: 600px;
+        bottom: 400px;
+    }
+
+    .hr1{
+        border-width: 50px;
+        size: 50px;
+        color: rgb(254, 52, 52);
+    }
+
+    .newclr{
+        color: yellow;
+    }
+
+
+    /* section 4 */
+    .sponsor{
+        width: 378px;
+        height: 77px;
+        margin: 0 0 0 5%;
+        font-family: 'Optima';
+        font-style: italic;
+        font-weight: 7;
+        font-size: 65px;
+        line-height: 77px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.05em;
+    }
+
+    .elip4{
+        position: relative;
+        bottom: 170px;
+        left: -450px;
+    }
+
+    .teburu{
+        position: relative;
+        bottom: 170px;
+        width: 90%;
+        margin: 0 0 0 1%;
+        border-collapse: separate;
+        border-spacing: 6em;
+    }
+
+    .tablehd{
+        font-family: 'Optima';
+        font-style: italic;
+        font-weight: 7;
+        font-size: 32px;
+        line-height: 38px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.025em;    
+        color: white;   
+    }
